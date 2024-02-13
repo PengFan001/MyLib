@@ -8,4 +8,9 @@
     <string name="off">关闭</string>
     <string name="tips_auto_click_service_unable">自动点击服务未开启</string>
     <string name="auto_click">自动点击</string>
+    <string name="text_cancel">取消</string>
+    <string name="text_ensure">确定</string>
+    <string name="text_dialog_title">系统提示</string>
+    <string name="dialog_default_message">未知</string>
+    <string name="text_dialog_message">系统消息</string>
 </resources>

@@ -8,4 +8,9 @@
     <string name="off">OFF</string>
     <string name="tips_auto_click_service_unable"> AutoClick Service Unable</string>
     <string name="auto_click">Auto Click</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_ensure">OK</string>
+    <string name="text_dialog_title">System Tips</string>
+    <string name="dialog_default_message">unknown</string>
+    <string name="text_dialog_message">System Message</string>
 </resources>

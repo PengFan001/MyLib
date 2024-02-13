@@ -5,4 +5,23 @@
     <string name="text_stop_auto_click">Stop Auto Click Service</string>
     <string name="tips_open_system_alert_permission">Open the hover window permission</string>
     <string name="tips_open_auto_click_service">Open Auto click service</string>
+    <string name="text_scorer">Scorer</string>
+    <string name="text_money">Input each game money</string>
+    <string name="text_input_player_name">Input Player Name</string>
+    <string name="text_start_score">Start Score</string>
+    <string name="hint_number">Enter an even number greater than 0</string>
+    <string name="tips_params_error">Please enter the correct data</string>
+    <string name="tips_must_input_money">The amount must be entered to start the game</string>
+    <string name="text_palyer1">Player1</string>
+    <string name="text_palyer2">Player2</string>
+    <string name="text_palyer3">Player3</string>
+    <string name="text_boom_number">Boom Number</string>
+    <string name="text_weather_spring">Weather Spring</string>
+    <string name="text_landlord_player">Landlord Player</string>
+    <string name="text_win_player">Winner</string>
+    <string name="text_score">Score</string>
+    <string name="text_yes">Yes</string>
+    <string name="text_no">No</string>
+    <string name="tips_input_winner">The winner and landlord must be entered to calculate the score</string>
+    <string name="tips_exit">Confirm whether to exit, the score data will be cleared after exit</string>
 </resources>

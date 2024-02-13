@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".score.ScoreActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_money"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/tv_title_money"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="@string/text_money">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_money"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignEnd="@+id/tv_title_money"
+            android:gravity="center"
+            android:textSize="18sp">
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_player_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/tv_title_player_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="@string/text_input_player_name">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_player1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignEnd="@+id/tv_title_player_1"
+            android:gravity="center"
+            android:textSize="18sp">
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_player_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/tv_title_player_2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="@string/text_input_player_name">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_player2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignEnd="@+id/tv_title_player_2"
+            android:gravity="center"
+            android:textSize="18sp">
+        </TextView>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_player_3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/tv_title_player_3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="@string/text_input_player_name">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_player3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignEnd="@+id/tv_title_player_3"
+            android:gravity="center"
+            android:textSize="18sp">
+        </TextView>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:text="@string/text_start_score">
+    </Button>
+
+</LinearLayout>

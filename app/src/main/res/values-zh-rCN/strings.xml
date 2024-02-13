@@ -5,4 +5,24 @@
     <string name="text_stop_auto_click">关闭自动点击服务</string>
     <string name="tips_open_system_alert_permission">打开悬浮窗权限</string>
     <string name="tips_open_auto_click_service">打开自动点击服务</string>
+    <string name="text_scorer">计分器</string>
+    <string name="text_money">请输入每把金额</string>
+    <string name="text_input_player_name">请输入玩家姓名</string>
+    <string name="text_start_score">开始计分</string>
+
+    <string name="hint_number">输入大于0的偶数</string>
+    <string name="tips_params_error">请输入正确数据</string>
+    <string name="tips_must_input_money">必须输入金额才能开始游戏</string>
+    <string name="text_palyer1">玩家1</string>
+    <string name="text_palyer2">玩家2</string>
+    <string name="text_palyer3">玩家3</string>
+    <string name="text_boom_number">炸弹个数</string>
+    <string name="text_weather_spring">是否春天</string>
+    <string name="text_landlord_player">地主玩家</string>
+    <string name="text_win_player">赢家</string>
+    <string name="text_score">计分</string>
+    <string name="text_yes">是</string>
+    <string name="text_no">否</string>
+    <string name="tips_input_winner">必须输入赢家和地主用来计算分数</string>
+    <string name="tips_exit">确认是否退出，退出后计分数据会清零</string>
 </resources>

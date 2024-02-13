@@ -11,6 +11,7 @@ import com.example.jirin.activity.base.BaseAppCompatActivity;
 import com.example.jirin.service.FloatViewClickService;
 import com.example.jirin.utils.AppBadgeUtil;
 import com.example.jirin.utils.PermissionUtil;
+import com.example.mylib.score.ScoreActivity;
 
 /**
  * @author PengFan
@@ -19,6 +20,7 @@ public class MainActivity extends BaseAppCompatActivity implements View.OnClickL
     private Button mBtnBadge;
     private Button mBtnStart;
     private Button mBtnStop;
+    private Button mBtnScore;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,10 +33,12 @@ public class MainActivity extends BaseAppCompatActivity implements View.OnClickL
         mBtnBadge = (Button) findViewById(R.id.btn_badge);
         mBtnStart = (Button) findViewById(R.id.btn_start_auto_click);
         mBtnStop = (Button) findViewById(R.id.btn_stop_auto_click);
+        mBtnScore = (Button) findViewById(R.id.btn_score);
 
         mBtnBadge.setOnClickListener(this);
         mBtnStart.setOnClickListener(this);
         mBtnStop.setOnClickListener(this);
+        mBtnScore.setOnClickListener(this);
     }
 
     @Override
@@ -66,6 +70,12 @@ public class MainActivity extends BaseAppCompatActivity implements View.OnClickL
 
             case R.id.btn_stop_auto_click:
                 stopService(new Intent(this, FloatViewClickService.class));
+                break;
+
+            case R.id.btn_score:
+                if (!isDoubleClick()) {
+                    startActivity(new Intent(this, ScoreActivity.class));
+                }
                 break;
 
             default:

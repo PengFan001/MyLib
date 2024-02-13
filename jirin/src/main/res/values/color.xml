@@ -2,6 +2,11 @@
 <resources>
     <color name="white">#ffffff</color>
     <color name="black">#000000</color>
-
+    <color name="red">#FA2F03</color>
     <color name="float_view_bg_color">#3F000000</color>
+    <color name="settings_text_color">#4A4A4A</color>
+    <color name="normal_dialog_title_bg_color">#E4E7E6</color>
+    <color name="settings_exit_btn_nor_color">#65B0E2</color>
+    <color name="settings_exit_btn_click_color">#FFFFFF</color>
+    <color name="gray_line_transparent">#AABABABA</color>
 </resources>

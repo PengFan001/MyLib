@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/menu_item_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_dialog_title"
+        android:gravity="center"
+        android:paddingTop="@dimen/custom_nor_dialog_vertical_title_padding"
+        android:paddingBottom="@dimen/custom_nor_dialog_vertical_title_padding"
+        android:textSize="@dimen/custom_nor_dialog_title_text_size"
+        android:textColor="@color/settings_text_color"
+        android:background="@color/normal_dialog_title_bg_color">
+    </TextView>
+
+    <ListView
+        android:id="@+id/lv_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menu_item_dialog_title">
+    </ListView>
+
+</RelativeLayout>
